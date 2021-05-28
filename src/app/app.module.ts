@@ -7,6 +7,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RodapeModule } from './componentes/rodape/rodape.module';
+import { AutenticacaoModule } from './autenticacao/autenticacao.module';
 
 @NgModule({
   declarations: [
@@ -17,9 +18,8 @@ import { RodapeModule } from './componentes/rodape/rodape.module';
     AppRoutingModule,
     HttpClientModule,
     CabecalhoModule,
-    RodapeModule
-
-
+    RodapeModule,
+    AutenticacaoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
